@@ -2,13 +2,13 @@
     height:100vh;
     background: #837c31 */
 
-/* .flexcontainer {
+.flexcontainer {
     display: flex;
     justify-content: flex-start;   
     position: relative;            
     width: 500px;
     height: 200px;
-    } */
+    } 
 
 .article, .footer {
     background: #00AAF2;
@@ -27,10 +27,36 @@
     font-family: 'cursive', Arial, Helvetica, sans-serif;
     }
 
+.Question1 {
+    
+}
   
-    /* .header, .footer, .article, .sidebar-left, .sidebar-right {
-        background: #ccc;
-        padding: 1em; */
+.header {
+    background: #00AAF2;
+    padding: 1em;
+        
+}
+
+.footer {
+    background:#00AAF2;
+    padding: 1em;
+}
+
+.article {
+    background:#00AAF2;
+    padding: 1em;
+}
+
+.sidebar-left {
+    background: #00AAF2;
+    padding: 1em;
+}
+
+.sidebar-right {
+    background: #00AAF2;
+    padding: 1em;
+}
+
 
     /* .main-title {
     font-family: cursive;
