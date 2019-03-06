@@ -10,72 +10,33 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="form">
-    <h1>What is your name?</h1>
-    <form>
-      <div>
+    <div>
         <div id="game"> 
           <h1>JavaScript Functions!</h1>
-          <input id="nameInput" type="text" class="text-input" placeholder="Name" />
-          <div id="displayGame"></div>
         </div>
 
-        <section>
-          <div class="form-group">
-            <!-- <input id="submitButton" type="text" class="text-input" placeholder="Name" /> -->
-          </div>       
-        </section>
-        
-      </div>
-      <input id="submitButton" class="btn" type="submit" value="Submit" />
-      <form action="" method="GET">
-            <input type="text" name="name" id="name" placeholder="Name" />
-            <input type="text" name="email" id="email" placeholder="Email address" />
-            <input type="text" name="submit" id="submit" placeholder="Submit" />
-           
-            <input type="submit" name="submit" id="submit" value="Submit" />
-          </form>
-    </form>
-   </div>
-
-   
-   <div class="Question1">
-        <form action="" method="GET">
-            <input class="qOne" type="text" name="name" id="name" placeholder="Name" />
+        <div class="Question">
             <h1>Type "Hello"</h1>
             <p>Enter your response here</p>
-       <textarea name="message" id="message" placeholder="Message" ></textarea>
-       
-       <input type = "text" id="">
-       <input type="submit" name="submit" id="submit" value="Submit" />
-       </form>
+            <textarea name="message" id="questionOne" placeholder="Message" ></textarea>
+            <input type="submit" name="submit" id="submitQ1" value="Submit" />
+        </div>
 
-    </div>
-
-    <div class="Question2">
-            <form action="" method="GET">
-                    <input class="qTwo" type="text" name="name" id="name" placeholder="Name" />
+        <div class="Question">                
             <h1>Type "Bye"</h1>
             <p>Enter your response here</p>
-            <textarea name="message" id="message" placeholder="Message" ></textarea>
-            
-                <input type = "text" id="">
-                <input type="submit" name="submit" id="submit" value="Submit" />
+            <textarea name="message" id="questionTwo" placeholder="Message" ></textarea>
+            <input type="submit" name="submit" id="submitQ2" value="Submit" />
             </form>
          </div>
     
-         <div class="Question3">
-                <form action="" method="GET">
-                        <input class="qThree" type="text" name="name" id="name" placeholder="Name" />
-                    <h1>Type "Functions"</h1>
-                    <p>Enter your response here</p>
-                    <textarea name="message" id="message" placeholder="Message" ></textarea>
-                
-                    <input type = "text" id="">
-                    <input type="submit" name="submit" id="submit" value="Submit" />
-                </form>
-             </div>
-  <script src="js/main.js"></script>
+         <div class="Question">   
+              <h1>Type "Functions"</h1>
+              <p>Enter your response here</p>
+              <textarea name="message" id="questionThree" placeholder="Message" ></textarea>
+              <input type="submit" name="submit" id="submitQ3" value="Submit" />
+         </div>
+  <script src="./jstrivia.js"></script>
 </body>
 </html>
 

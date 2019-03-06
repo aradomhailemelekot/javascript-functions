@@ -1,7 +1,19 @@
 const formDiv = document.getElementById("form");
 const submitButton = document.getElementById("submitButton")
-let nameValue = document.getElementById("nameInput").value;
+let nameValue = document.getElementById("nameInput");
 const gameDiv = document.getElementById("game")
+
+function greetUser() {
+    let userName = prompt("Hello, please enter your name: ")
+    alert (`Hello ${userName}`)
+    
+}
+
+function startGame() {
+    greetUser()
+}
+
+startGame()
 
 const formSubmit = function(e) {
     console.log("click")
@@ -9,56 +21,60 @@ const formSubmit = function(e) {
     // startGame = function(){
 }
 
-nameValue=document.getElementById("nameInput").value
+nameValue=document.getElementById("nameInput")
 
-formDiv.style.display="none"
+// formDiv.style.display="none"
 
 console.log(nameValue)
 
-startGame();
+// startGame();
 gameDiv.style.display="block"
 
-// Question 1
+    // let nameHello = alert
+    //     prompt("Type hello")
+    
+    // let questionOne  = ("Type Hello")
 
-    // Write a "function" that prints "Hello World"
-
-    let nameHello = alert
-    prompt("Type hello")
-    let qOne  = ("Type Hello")
-    let where = function (){
+    let verify = function (){
         
-        if (where == Hello || HELLO || hello || HEllo){
+        if (answerOne == Hello || HELLO || hello || HEllo){
         alert("Correct!")
         }
-        else{
+
+        else {
         alert("Close! The correct answer is hello")    
         }
     }
 
+   
 
-
-   let nameBye = alert
-    prompt("Type Bye")
-    let qTwo  = ("Type Bye")
-    let where = function (){
+    // let nameBye = alert
+    // prompt("Type Bye")
+    // let questionThree  = ("Type Functions")
+    // let where = function() {
         
-        if (where == "Bye" || "BYE" || "bye" || "BYe"){
-        alert("Correct!")
-        }
-        else{
-        alert("Close! The correct answer is bye")    
-        }
-    }
+    //     if (where == Functions || FUNCTIONS || functions || FUnctions){
+    //     alert("Correct!")
+    //     }
+    //     else {
+    //     alert("Close! The correct answer is bye")    
+    //     }
+    // }
 
-    let nameBye = alert
-    prompt("Type Bye")
-    let qThree  = ("Type Functions")
-    let where = function (){
-        
-        if (where == Functions || FUNCTIONS || functions || FUnctions){
-        alert("Correct!")
-        }
-        else {
-        alert("Close! The correct answer is bye")    
-        }
+// DOM
+let q1Text = document.getElementById('questionOne')
+let q1Btn = document.querySelector('#submitQ1')
+
+function checkQ1() {
+    if (q1Text.value === "Hello") {
+        alert('Correct')
+    } else {
+        alert('Incorrect')
     }
+}
+
+
+q1Btn.addEventListener('click', checkQ1)
+
+
+
