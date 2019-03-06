@@ -23,7 +23,6 @@ const formSubmit = function(e) {
 
 nameValue=document.getElementById("nameInput")
 
-console.log(nameValue)
 
 gameDiv.style.display="block"    
 
@@ -38,12 +37,21 @@ let q2Btn = document.querySelector('#submitQ2')
 let q3Text = document.getElementById('questionThree')
 let q3Btn = document.querySelector('#submitQ3')
 
+let q4Text = document.getElementById('questionFour')
+let q4Btn = document.querySelector('#submitQ4')
+
+let q5Text = document.getElementById('questionFive')
+let q5Btn = document.querySelector('#submitQ5')
+
+let q6Text = document.getElementById('questionSix')
+let q6Btn = document.querySelector('#submitQ6')
+
 function checkQ1() {
-    // to lower case
-    if (q1Text.value == "Hello" || "hello" || "HELLO" || "HEllo") {
+    console.log(q1Text)
+    if (q1Text.value == "hello" || "Hello" || "HELLO"|| "HEllo"){
         alert('Correct! On to the next question')
-    } else {
-        alert('Close! The answer is hello. Better luck on the next question')
+    } else { 
+        alert('Close! Better luck on the next question')
     }
 }
 
@@ -56,7 +64,6 @@ function checkQ2() {
 }
 
 function checkQ3() {
-    console.log("click")
     if (q3Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
         alert('Correct!')
     } else {
@@ -64,8 +71,35 @@ function checkQ3() {
     }
 }
 
+function checkQ4() {
+    if (q4Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
+        alert('Correct!')
+    } else {
+        alert('Close! The answer is functions. Better luck on the next question')
+    }
+}
+
+function checkQ5() {
+    if (q5Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
+        alert('Correct!')
+    } else {
+        alert('Close! The answer is functions. Better luck on the next question')
+    }
+}
+
+function checkQ6() {
+    if (q6Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
+        alert('Correct!')
+    } else {
+        alert('Close! The answer is functions. Better luck on the next question')
+    }
+}
+
+    
 q1Btn.addEventListener('click', checkQ1)
 q2Btn.addEventListener('click', checkQ2)
 q3Btn.addEventListener('click', checkQ3)
-
+q4Btn.addEventListener('click', checkQ4)
+q5Btn.addEventListener('click', checkQ5)
+q6Btn.addEventListener('click', checkQ6)
 
