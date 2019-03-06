@@ -5,15 +5,18 @@
   <meta charset="utf-8">
   <title>Submit Form to Game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+   
+<link rel='stylesheet' href='jstrivia.css'>
 
 </head>
 <body>
-    <div>
+    <div class="container">
         <div id="game"> 
           <h1>JavaScript Functions!</h1>
         </div>
-
+          <Header>
+               Welcome! To play, simply read the question (or instruction) then type your response in the box below and press submit. We hope you find this game to be an educational experience. Thanks for playing!
+          </Header>
         <div class="Question">
             <h1>Type a function that adds 2 variables.</h1>
             <p>Enter your response here</p>
@@ -56,6 +59,16 @@
                 <textarea name="message" id="questionSix" placeholder="Message" ></textarea>
                 <input type="submit" name="submit" id="submitQ6" value="Submit" />
            </div>
+     </div>
+
+     <aside class = "Instructions">
+          Welcome! To play, simply read the question (or instruction) then type your response in the box below and press submit. We hope you find this gae to be an educational experience. Thanks for playing!
+
+     </aside>
+     
+     <footer>
+
+     </footer>
   <script src="./jstrivia.js"></script>
 </body>
 </html>
