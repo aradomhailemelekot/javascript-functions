@@ -5,7 +5,7 @@ const gameDiv = document.getElementById("game")
 
 function greetUser() {
     let userName = prompt("Hello, please enter your name: ")
-    alert (`Hello ${userName}`)
+    alert (`Hello ${userName}! To play simply answer the JavaScript questions below. Good luck!`)
     
 }
 
@@ -18,63 +18,43 @@ startGame()
 const formSubmit = function(e) {
     console.log("click")
     submitButton.addEventListener("click", formSubmit)
-    // startGame = function(){
+ 
 }
 
 nameValue=document.getElementById("nameInput")
 
-// formDiv.style.display="none"
-
 console.log(nameValue)
 
-// startGame();
-gameDiv.style.display="block"
+gameDiv.style.display="block"    
 
-    // let nameHello = alert
-    //     prompt("Type hello")
-    
-    // let questionOne  = ("Type Hello")
-
-    let verify = function (){
-        
-        if (answerOne == Hello || HELLO || hello || HEllo){
-        alert("Correct!")
-        }
-
-        else {
-        alert("Close! The correct answer is hello")    
-        }
-    }
-
-   
-
-    // let nameBye = alert
-    // prompt("Type Bye")
-    // let questionThree  = ("Type Functions")
-    // let where = function() {
-        
-    //     if (where == Functions || FUNCTIONS || functions || FUnctions){
-    //     alert("Correct!")
-    //     }
-    //     else {
-    //     alert("Close! The correct answer is bye")    
-    //     }
-    // }
+  
 
 // DOM
 let q1Text = document.getElementById('questionOne')
 let q1Btn = document.querySelector('#submitQ1')
 
+let q2Text = document.getElementById('questionTwo')
+let q2Btn = document.querySelector('#submitQ2')
+
 function checkQ1() {
-    if (q1Text.value === "Hello") {
-        alert('Correct')
+    if (q1Text.value == "Hello" || "hello" || "HELLO" || "HEllo") {
+        alert('Correct! On to the next question')
     } else {
-        alert('Incorrect')
+        alert('Close! The answer is hello. Try again on the next question')
+    }
+}
+
+function checkQ2() {
+    if (q2Text.value == "Bye"){
+        alert('Correct!')
+    } else {
+        alert('Close! The answer is hello. Try again on the next question')
     }
 }
 
 
 q1Btn.addEventListener('click', checkQ1)
+q2Btn.addEventListener('click', checkQ2)
 
 
 
