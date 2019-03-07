@@ -17,10 +17,11 @@ This game is designed for individuals who are new to programming, and perhaps ha
 
 **Why**
 
-I created this game because my initial immersion in to programming, specifically use of JavaScript, was difficult! There was a limited amount of web content online to help me learn in this format, so I created a game that would have helped me learn at tat time. (I hope it helps you to)
+I created this game because my initial immersion in to programming, specifically use of JavaScript, was difficult! There was a limited amount of web content online to help me learn in this format, so I created a game that would have helped me learn at that time. (I hope it helps you to)
 
 
 **What**
+
 This simple game was created by use of JavaScript, CSS, and HTML.
 
 
