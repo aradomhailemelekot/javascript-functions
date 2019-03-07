@@ -38,7 +38,7 @@ let q6Text = document.getElementById('questionSix')
 let q6Btn = document.querySelector('#submitQ6')
 
 function checkQ1() {
-    if (q1Text.value.toLowerCase() == "let world = hello world console.log(world)"){ 
+    if (q1Text.value.toLowerCase() == "let world = 'hello world' console.log(world)"){ 
     alert('Correct! On to the next question')
     } 
     else { 
