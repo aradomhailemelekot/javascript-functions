@@ -43,7 +43,9 @@ function checkQ1() {
     } 
     else { 
         alert('Close! Better luck on the next question')
-    } 
+            q1Text.text = q1Btn.Empty
+    }
+    q1Text.setAttribute("value", "");
 }
 
 function checkQ2() {
@@ -86,6 +88,7 @@ function checkQ6() {
         alert('Close! Better luck next time')
     }
 }
+
 q1Btn.addEventListener('click', checkQ1)
 q2Btn.addEventListener('click', checkQ2)
 q3Btn.addEventListener('click', checkQ3)
