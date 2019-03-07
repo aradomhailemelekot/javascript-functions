@@ -49,7 +49,7 @@ function checkQ1() {
 }
 
 function checkQ2() {
-    if (q2Text.value.toLowerCase() == 'let x = function sum(){arr){x = (b + 2)}'){
+    if (q2Text.value.toLowerCase() == 'let x = function sum(){(arr) = (b + 2)}'){
         alert('Correct! On to the next question')
     } 
     else {
