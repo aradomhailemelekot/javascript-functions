@@ -38,7 +38,7 @@ let q6Text = document.getElementById('questionSix')
 let q6Btn = document.querySelector('#submitQ6')
 
 function checkQ1() {
-    if (q1Text.value.toLowerCase === "let world = hello world console.log(world)"){ 
+    if (q1Text.value.toLowerCase() == "let world = hello world console.log(world)"){ 
     alert('Correct! On to the next question')
     } 
     else { 
@@ -47,7 +47,7 @@ function checkQ1() {
 }
 
 function checkQ2() {
-    if (q2Text.value.toLowerCase === 'let x = function sum(){arr){x = (b + 2)}'){
+    if (q2Text.value.toLowerCase() == 'let x = function sum(){arr){x = (b + 2)}'){
         alert('Correct! On to the next question')
     } 
     else {
@@ -56,7 +56,7 @@ function checkQ2() {
 }
 
 function checkQ3() {
-    if (q3Text.value.toLowerCase === "let x = function (){parseint(2)}"){
+    if (q3Text.value.toLowerCase() == "let x = function (){parseint(2)}"){
         alert('Correct!')
     } else {
         alert('Close! Better luck on the next question')
@@ -64,7 +64,7 @@ function checkQ3() {
 }
 
 function checkQ4() {
-    if (q4Text.value.toLowerCase == "let x = function(){parseint('2'*4)}"){
+    if (q4Text.value.toLowerCase() == "let x = function(){parseint('2'*4)}"){
         alert('Correct!')
     } else {
         alert('Close! Better luck on the next question')
@@ -72,7 +72,7 @@ function checkQ4() {
 }
 
 function checkQ5() {
-    if (q5Text.value.toLowerCase == "function x(y,z){ }"){
+    if (q5Text.value.toLowerCase() == "function x(y,z){}"){
         alert('Correct!')
     } else {
         alert('Close! Better luck on the next question')
@@ -80,7 +80,7 @@ function checkQ5() {
 }
 
 function checkQ6() {
-    if (q6Text.value.toLowerCase == "let y = function{function x(a){} function z(b){}}"){
+    if (q6Text.value.toLowerCase() == "let y = function{function x(a){} function z(b){}}"){
         alert('Correct!')
     } else {
         alert('Close! Better luck next time')
