@@ -1,75 +1,73 @@
-
-<!doctype html>
-<html class="no-js" lang="">
-<head>
-  <meta charset="utf-8">
-  <title>Submit Form to Game</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js" lang=""><head>
+     <meta charset="utf-8">
+     <title>Submit Form to Game</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+   <link rel="stylesheet" href="jstrivia.css">
    
-<link rel='stylesheet' href='jstrivia.css'>
-
-</head>
-<body>
-    <div class="container">
-        <div id="game"> 
-          <h1>JavaScript Functions!</h1>
+   </head>
+   <body>
+       <div class="container">
+           <div id="game" style="display: block;"> 
+             <h1>JavaScript Functions!</h1>
+           </div>
+             <header>
+                  Welcome! To play, simply read the question (or instruction) then type your response in the box below and press submit. We hope you find this game to be an educational experience. Thanks for playing!
+             </header>
+           <div class="Question">
+               <h1>To print "hello world" simply type in the following command. "let world = hello world
+                    Console.log(world)"
+               </h1>
+               <p>Type JavaScript here</p>
+               <textarea name="message" id="questionOne" placeholder="Message"></textarea>
+               <input type="submit" name="submit" id="submitQ1" value="Submit" /> 
+           </div>
+   
+           <div class="Question">                
+               <h1>Write a function to obtain a sum, type "let x = function sum(){arr){x = (b + 2)}"</h1>
+               <p> Type JavaScript here</p>
+               <textarea name="message" id="questionTwo" placeholder="Message"></textarea>
+               <input type="submit" name="submit" id="submitQ2" value="Submit">
+            </div>
+       
+            <div class="Question">   
+                 <h1>This is a function that turns a string "2" in to the number 2.</h1>
+                 <p>"let x = function (){parseInt(2)}"</p>
+                 <p>Hint: in javaScript "2" is not the same as 2; "2" is a string which is a word(s), or a number in quotes)</p>
+                 <textarea name="message" id="questionThree" placeholder="Message"></textarea>
+                 <input type="submit" name="submit" id="submitQ3" value="Submit">
+            </div>
+   
+            <div class="Question">   
+                   <h1>Type a function that turns the string "2" in to a number &amp; multiplies it by 4.</h1>
+                   <p>let x = function(){parseInt('2'*4)}</p>
+                   <textarea name="message" id="questionFour" placeholder="Message"></textarea>
+                   <input type="submit" name="submit" id="submitQ4" value="Submit">
+              </div>
+   
+              <div class="Question">   
+                   <h1>Type a function that accepts 2 arguments.</h1>
+                   <p>function x(y,z){}</p>
+                   <textarea name="message" id="questionFive" placeholder="Message"></textarea>
+                   <input type="submit" name="submit" id="submitQ5" value="Submit">
+              </div>
+   
+              <div class="Question">   
+                   <h1>Type a nested function.</h1>
+                   <p> let y = function{function x(a){}
+                        function z(b){}}
+                   </p>
+                   <textarea name="message" id="questionSix" placeholder="Message"></textarea>
+                   <input type="submit" name="submit" id="submitQ6" value="Submit">
+              </div>
         </div>
-          <Header>
-               Welcome! To play, simply read the question (or instruction) then type your response in the box below and press submit. We hope you find this game to be an educational experience. Thanks for playing!
-          </Header>
-        <div class="Question">
-            <h1>Type a function that adds 2 variables.</h1>
-            <p>Enter your response here</p>
-            <textarea name="message" id="questionOne" placeholder="Message" ></textarea>
-            <input type="submit" name="submit" id="submitQ1" value="Submit" />
-        </div>
-
-        <div class="Question">                
-            <h1>Write a function that prints "Hello World" </h1>
-            <p>Enter your response here</p>
-            <textarea name="message" id="questionTwo" placeholder="Message" ></textarea>
-            <input type="submit" name="submit" id="submitQ2" value="Submit" />
-            </form>
-         </div>
-    
-         <div class="Question">   
-              <h1>Type a function that turns the "2" in to the number 2.</h1>
-              <p>Enter your response here</p>
-              <textarea name="message" id="questionThree" placeholder="Message" ></textarea>
-              <input type="submit" name="submit" id="submitQ3" value="Submit" />
-         </div>
-
-         <div class="Question">   
-                <h1>Type a function that turns the string "2" in to a number & multiplies it by 4.</h1>
-                <p>Enter your response here</p>
-                <textarea name="message" id="questionFour" placeholder="Message" ></textarea>
-                <input type="submit" name="submit" id="submitQ4" value="Submit" />
-           </div>
-
-           <div class="Question">   
-                <h1>Type "Functions"</h1>
-                <p>Enter your response here</p>
-                <textarea name="message" id="questionFive" placeholder="Message" ></textarea>
-                <input type="submit" name="submit" id="submitQ5" value="Submit" />
-           </div>
-
-           <div class="Question">   
-                <h1>Type a nested function.</h1>
-                <p>Enter your response here</p>
-                <textarea name="message" id="questionSix" placeholder="Message" ></textarea>
-                <input type="submit" name="submit" id="submitQ6" value="Submit" />
-           </div>
-     </div>
-
-     <aside class = "Instructions">
-          Welcome! To play, simply read the question (or instruction) then type your response in the box below and press submit. We hope you find this gae to be an educational experience. Thanks for playing!
-
-     </aside>
-     
-     <footer>
-
-     </footer>
-  <script src="./jstrivia.js"></script>
-</body>
-</html>
-
+   
+        
+        <footer>
+   
+        </footer>
+     <script src="./jstrivia.js" async=""></script>
+   
+   
+   
+   </body></html>

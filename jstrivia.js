@@ -16,18 +16,9 @@ function startGame() {
 startGame()
 
 const formSubmit = function(e) {
-    console.log("click")
     submitButton.addEventListener("click", formSubmit)
- 
 }
-
-nameValue=document.getElementById("nameInput")
-
-
-gameDiv.style.display="block"    
-
   
-// DOM
 let q1Text = document.getElementById('questionOne')
 let q1Btn = document.querySelector('#submitQ1')
 
@@ -47,55 +38,54 @@ let q6Text = document.getElementById('questionSix')
 let q6Btn = document.querySelector('#submitQ6')
 
 function checkQ1() {
-    console.log(q1Text)
-    if (q1Text.value == "hello" || "Hello" || "HELLO"|| "HEllo"){
+    if (q1Text.value.toLowerCase === "let world = hello world console.log(world)"){ 
+    alert('Correct! On to the next question')
+    } 
+    else { 
+        alert('Close! Better luck on the next question')
+    } 
+}
+
+function checkQ2() {
+    if (q2Text.value.toLowerCase === 'let x = function sum(){arr){x = (b + 2)}'){
         alert('Correct! On to the next question')
-    } else { 
+    } 
+    else {
         alert('Close! Better luck on the next question')
     }
 }
 
-function checkQ2() {
-    if (q2Text.value == "Bye" || "BYE" || "bye" || "BYe"){
-        alert('Correct!')
-    } else {
-        alert('Close! The answer is bye. Better luck on the next question')
-    }
-}
-
 function checkQ3() {
-    if (q3Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
+    if (q3Text.value.toLowerCase === "let x = function (){parseint(2)}"){
         alert('Correct!')
     } else {
-        alert('Close! The answer is functions. Better luck on the next question')
+        alert('Close! Better luck on the next question')
     }
 }
 
 function checkQ4() {
-    if (q4Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
+    if (q4Text.value.toLowerCase == "let x = function(){parseint('2'*4)}"){
         alert('Correct!')
     } else {
-        alert('Close! The answer is functions. Better luck on the next question')
+        alert('Close! Better luck on the next question')
     }
 }
 
 function checkQ5() {
-    if (q5Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
+    if (q5Text.value.toLowerCase == "function x(y,z){ }"){
         alert('Correct!')
     } else {
-        alert('Close! The answer is functions. Better luck on the next question')
+        alert('Close! Better luck on the next question')
     }
 }
 
 function checkQ6() {
-    if (q6Text.value == "Functions" || "functions" || "FUNCTIONS" || 'FUnctions'){
+    if (q6Text.value.toLowerCase == "let y = function{function x(a){} function z(b){}}"){
         alert('Correct!')
     } else {
-        alert('Close! The answer is functions. Better luck on the next question')
+        alert('Close! Better luck next time')
     }
 }
-
-    
 q1Btn.addEventListener('click', checkQ1)
 q2Btn.addEventListener('click', checkQ2)
 q3Btn.addEventListener('click', checkQ3)
