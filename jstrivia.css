@@ -1,0 +1,33 @@
+
+  .container {
+      max-width: 1300px;
+      background-image: linear-gradient(to left top, #490aa8, #006cfd, #00a1f6, #00cba1, #14eb12);
+      margin: 40px auto 0 auto;
+      line-height: 1.65;
+      padding: 20px 50px;
+      grid: auto;
+      font-family: monospace;
+      text-align: center;
+      flex: auto;
+    }
+    
+   #game {
+       font-family: cursive;
+       font-size: 46
+   }
+
+  .question1 {
+       text-align: center;
+   }
+
+   .aside {
+       float: right;
+   }
+
+   @media (min-width: 900px){
+       .questions {
+           display: flex;
+           justify-content: space-between;
+       }
+
+   }
