@@ -31,3 +31,6 @@ Hope you enjoy playing, please provide feedback to me at aradomhailemelekot@gmai
 
 <img width="1440" alt="screen shot 2019-03-08 at 9 18 39 am" src="https://user-images.githubusercontent.com/47545722/54033780-38bde100-4183-11e9-9e59-02af3fd908b6.png">
 <img width="1440" alt="screen shot 2019-03-08 at 9 18 43 am" src="https://user-images.githubusercontent.com/47545722/54033785-3b203b00-4183-11e9-83b6-ef2fbad8b8ef.png">
+
+![img_0233](https://user-images.githubusercontent.com/47545722/54046964-d0cbc280-41a3-11e9-837c-d3cea399da70.JPG)
+
